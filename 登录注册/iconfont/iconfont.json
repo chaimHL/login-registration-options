@@ -1,0 +1,30 @@
+{
+  "id": "1680439",
+  "name": "登录注册",
+  "font_family": "iconfont",
+  "css_prefix_text": "icon",
+  "description": "",
+  "glyphs": [
+    {
+      "icon_id": "672036",
+      "name": "下拉",
+      "font_class": "xiala",
+      "unicode": "e6b9",
+      "unicode_decimal": 59065
+    },
+    {
+      "icon_id": "5332248",
+      "name": "手机",
+      "font_class": "xiaochengxuicon-",
+      "unicode": "e622",
+      "unicode_decimal": 58914
+    },
+    {
+      "icon_id": "6746253",
+      "name": "微信",
+      "font_class": "weixin",
+      "unicode": "e604",
+      "unicode_decimal": 58884
+    }
+  ]
+}
