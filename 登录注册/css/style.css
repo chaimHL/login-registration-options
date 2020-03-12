@@ -87,6 +87,18 @@ body {
   font-size: 18px;
   padding-top: 10px;
 }
+.outer-container .right .forget {
+  color: #6495de;
+  font-size: 16px;
+  line-height: 16px;
+  margin-top: 20px;
+  float: right;
+}
+.outer-container .right .forget:hover {
+  -webkit-animation: text-pop-up-top 0.5s cubic-bezier(0.25, 0.46, 0.45, 0.94) both;
+  animation: text-pop-up-top 0.5s cubic-bezier(0.25, 0.46, 0.45, 0.94) both;
+  transition: all ease-in-out 0.2s;
+}
 .bottom_box {
   height: 40px;
   line-height: 40px;
@@ -177,8 +189,11 @@ p {
   text-align: center;
   color: #666666;
 }
-.mt {
+.mt_90 {
   margin-top: 90px;
+}
+.mt_28 {
+  margin-top: 28px!important;
 }
 .trans {
   transition: all ease-in-out 0.2s;
