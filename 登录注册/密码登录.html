@@ -2,7 +2,7 @@
 <html>
 	<head>
 		<meta charset="utf-8" />
-		<title>登录注册</title>
+		<title>密码登录</title>
 		<link rel="stylesheet" type="text/css" href="./css/reset.css"/>
 		<link rel="stylesheet" type="text/css" href="iconfont/iconfont.css"/>
 		<link rel="stylesheet" href="./css/style.css">
@@ -17,11 +17,14 @@
 				</div>
 			</div>
 			<div class="right">
-				<h2 class="title">账号登录<a href="登录.html">短信登录</a></h2>
-				<form>
+				<h2 class="title">
+					<a href="微信登录.html" class="link">微信登录</a>
+					<a href="登录.html" class="link">手机验证登录</a>
+					<a href="##" class="active">密码登录</a></h2>
+				<form class="mt_30">
 					<div class="item_box">
 						<div class="input_box">
-							<input type="tel" placeholder="请输入手机号码" autocomplete="off">
+							<input type="tel" placeholder="请输入手机号码或邮箱" autocomplete="off">
 						</div>
 					</div>
 					<div class="item_box">
@@ -32,16 +35,12 @@
 					<a href="忘记密码.html" class="forget" target="_blank">忘记密码？</a>
 					<button class="long mt_28">登录</button>
 				</form>
-				<div class="bottom_box mt_90">
-					<div class="bottom_left">
-						<a href="微信登录.html" class="wx">
-							<i class="iconfont iconweixin"></i>
-							微信登录
-						</a>
-					</div>
+				<div class="bottom_box mt_60 middle_along">
 					<div class="bottom_right">
-						没有账号？
-						<a href="注册.html">立即注册</a>
+						<span>
+							没有账号？
+							<a href="注册.html">立即注册</a>
+						</span>
 					</div>
 				</div>
 			</div>
