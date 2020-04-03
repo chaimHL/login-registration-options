@@ -202,6 +202,12 @@ button.long {
   border-radius: 30px;
   margin: 60px 0 70px;
 }
+button[disabled] {
+  background-color: #efefef;
+  color: #666666;
+  box-shadow: none;
+  cursor: not-allowed;
+}
 .qr_box {
   width: 240px;
   height: 240px;
