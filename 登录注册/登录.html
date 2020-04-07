@@ -74,7 +74,9 @@
 				let vBtn = $("#send_code")
 				vBtn.click(function (e){
 					e.preventDefault()
-					let countdown = 60
+					let countdown = 59
+					vBtn.attr("disabled", true)
+					vBtn.text("重新发送(60)")
 					let cd = setInterval(() => {
 						console.log(countdown)
 						if (countdown == 0) {
